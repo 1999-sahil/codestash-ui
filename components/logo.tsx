@@ -16,7 +16,7 @@ function Logo() {
           alt=""
           width={20}
           height={20}
-          className="object-cover"
+          className="object-cover max-md:w-[16px] max-md:h-[16px]"
         />
       ) : (
         <Image
@@ -24,13 +24,13 @@ function Logo() {
           alt=""
           width={20}
           height={20}
-          className="object-cover"
+          className="object-cover  max-md:w-[16px] max-md:h-[16px]"
         />
       )}
-      <div className="flex items-center font-semibold font-poppins text-black dark:text-white">
+      <div className="flex items-center font-semibold text-sm lg:text-base font-poppins text-black dark:text-white">
         <h2 className="">code</h2>
         <h2 className="font-medium text-zinc-600 dark:text-zinc-300">Stash</h2>
-        <h2 className="text-sm">/ui</h2>
+        <h2 className="text-xs lg:text-sm">/ui</h2>
       </div>
     </Link>
   );
